@@ -3,60 +3,82 @@
 <head>
 <title>Caminata #BastaDeTerricidio</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="css/estilo.css">
+<!--<link rel="stylesheet" href="css/estilo.css">-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="css/w3.css">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">-->
+<link rel="stylesheet" href="css/w3-theme-black.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
 
 <div class="header">
+  <img src="img/tipoportada.jpg">
 </div>
 
 <!--Menú navegación-->
 <hr>
 <div class="w3-bar w3-theme">
-  <a href="#" class="w3-bar-item w3-button w3-padding-16">Basta De Terricidio</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-16">Columna Norte</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-16">Columna Sur</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-16">Constribuciones</a>
+  <a href="#BastaDeTerricidio" class="w3-bar-item w3-button w3-padding-16">Basta De Terricidio</a>
+  <a href="#ColNorte" class="w3-bar-item w3-button w3-padding-16">Columna Norte</a>
+  <a href="#ColSur" class="w3-bar-item w3-button w3-padding-16">Columna Sur</a>
+  <a href="#Contribuciones" class="w3-bar-item w3-button w3-padding-16">Contribuciones</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-16">Prensa</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-16">Audivisuales</a>
-  <!--<div class="w3-dropdown-hover">
+  <div class="w3-dropdown-hover">
     <button class="w3-button w3-padding-16">
-      Dropdown <i class="fa fa-caret-down"></i>
+      Fondos para la Caminata<i class="fa fa-caret-down"></i>
     </button>
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 1</a>
-      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 2</a>
-      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 3</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Artivismo</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Artesanías "Hacedoras Por el Buen Vivir"</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Transferencias</a>
     </div>
-  </div>-->
-</div>
-
-<hr>
-<div class="w3-row w3-border">
-  <div class="w3-half w3-container w3-blue w3-border">
-    <h5>¿qué es el Terricidio?</h5>  
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/cinfImWZzwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-</div>
-  <div class="w3-half w3-container w3-blue w3-border">
-    <h5>Video Asamblea Norte</h5>  
-  <div class="w3-half w3-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jxsHVZXshpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   </div>
 </div>
+<hr>
+<div id="fecha actual" align="center">FECHA ACTUAL</div>
+<hr>
+<hr>
+<!--<h2 class="w3-center">Basta de Terricidio</h2>-->
+<div id="BastaDeTerricidio" class="w3-border">
+<div class="w3-bar w3-themes-light">
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'London')">Manifiesto Caminata "Basta De Terricidio"</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Paris')">quiénes caminamos</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Tokyo')"> ... </button>
+</div>
+
+<div align="center" id="London" class="w3-container city w3-animate-opacity">
+  <h2>"Basta De Terricidio"</h2>
+  <p>CAMINATA PLURINACIONAL: Basta de Terricidio.</p>
+  <p>Mientras no tengamos justicia, para ellos no habrá paz</p>
+</div>
+
+
+<div align="center" id="Paris" class="w3-container city w3-animate-opacity">
+  <h2>caminamos quienes</h2>
+  <p>....</p> 
+  <p>mujeres indígenas por el buen vivir</p>
+</div>
+
+<div id="Tokyo" class="w3-container city w3-animate-opacity">
+  <h2>Sección para hablar del terricidio</h2>
+  <p>Terricidio/mapa/..</p>
+  <p>..................................</p>
+</div>
+</div>
 
 <hr>
+
 <div class="w3-container w3-center">
-  <hr>
   <h3>Información actualizadas de la Caminata "Basta De Terricidio"</h3>
 </div>
 
 <div class="w3-row-padding">
 
-<div class="w3-half">
+<div id="ColNorte" class="w3-half">
 <div class="w3-card white">
   <div class="w3-container w3-indigo">
     <h3>Columna Norte</h3>
@@ -82,7 +104,7 @@
 </div>
 </div>
 
-<div class="w3-half">
+<div id="ColSur" class="w3-half">
 <div class="w3-card white">
   <div class="w3-container w3-theme">
     <h3>Columna Sur</h3>
@@ -104,53 +126,65 @@
       <p>Lista de Terricidios en el Territorio</p>
     </li>
   </ul>
-  <div class="w3-container w3-indigo w3-large"><span class="w3-right"></span></div>
-</div>
-
+  <div class="w3-container w3-indigo w3-large"><span class="w3-right"></span>Algo</div>
 </div>
 </div>
 </div>
 </div>
-
+</div>
 
 <hr>
-<div class="w3-row-padding"> 
-
-<div class="w3-third">
-<div class="w3-card">
-  <img src="img/ASAMBLEA_SANTAFE_MOQOIT_3-4.png" alt="Info actividad próxima col. Norte" style="width:100%">
-  <div class="w3-container">
-  <p>Columna Norte - Cayastá, Sta. Fe</p>
+<div class="w3-row w3-border">
+  <div class="w3-half w3-container w3-blue w3-border">
+    <h5>¿qué es el Terricidio?</h5>  
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cinfImWZzwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div>
+  <div class="w3-half w3-container w3-blue w3-border">
+    <h5>Video Asamblea Norte</h5>  
+  <div class="w3-half w3-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jxsHVZXshpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
   </div>
 </div>
-</div>
-<div class="w3-third">
-<div class="w3-card">
-  <img src="img/ASAMBLEA_SANTAFE_MOQOIT_3-4.png" alt="Info actividad próxima col. Norte" style="width:100%">
-  <div class="w3-container">
-  <p>Columna Norte - Cayastá, Sta. Fe</p>
-  </div>
-</div>
-</div>
+<br><br>
+<hr>
 
-<!--<div class="w3-third">
-<div class="w3-card-5">-->
-  <!--<img src="img/portada2.jpg" alt="info general" style="width:100%">-->
-  <!--<embed src="files/CAMINATA_BASTADETERRICIDIO.pdf#toolbar=0&zoom=50" type="application/pdf" width="100%" height="600px" />
-  <div class="w3-container">
-  <p>info general</p>
-  </div>
-</div>-->
 
-<div class="w3-third">
-<div class="w3-card-4">
-  <img src="img/camallo.jpeg" alt="Info actividad próxima col. Sur" style="width:100%">
-  <div class="w3-container">
-  <p>Columna Sur - Comallo, Río Negro</p>
-  </div>
-</div>
-</div>
+  <div class="w3-row-padding"> 
 
+    <div class="w3-third">
+      <div class="w3-card">
+        <img src="img/parana_30032021_1.jpg" alt="Actividad Columna Norte - Paraná, Entre Ríos - 30/03/2021" style="width:100%">
+        <div class="w3-container">
+          <p>Columna Norte - Paraná, Entre Ríos - 30/03/2021</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div class="w3-card">
+        <img src="img/elbolsonabariloche_23032021_4.jpg" alt="Columna Sur - de El Bolsón a Furiloche - Río Negro - 23/03/2021" style="width: 100%">
+        <div class="w3-container">
+          <p>Columna Sur - de El Bolsón a Furiloche - Río Negro - 23/03/2021</p>
+        </div>
+      </div>
+    </div>
+
+  <!--<div class="w3-third">
+  <div class="w3-card-5">-->
+    <!--<img src="img/portada2.jpg" alt="info general" style="width:100%">-->
+    <!--<embed src="files/CAMINATA_BASTADETERRICIDIO.pdf#toolbar=0&zoom=50" type="application/pdf" width="100%" height="600px" />
+    <div class="w3-container">
+    <p>info general</p>
+    </div>
+  </div>-->
+
+    <div class="w3-third">
+      <div class="w3-card-4">
+        <img src="img/parana_30032021_2.jpg" alt="Actividad Columna Norte - Paraná, Entre Ríos - 30/03/2021" style="width:100%">
+        <div class="w3-container">
+        <p>Columna Norte - Paraná, Entre Ríos - 30/03/2021</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 </div>
@@ -174,9 +208,94 @@
 
 </div>
 -->
+<br>
+<hr>
 <div class="footer">
   <p>Redes - Creative Commons - Contacto</p>
 </div>
+
+<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+<script>
+// Side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Tabs
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+    activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+// Accordions
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Slideshows
+var slideIndex = 1;
+
+function plusDivs(n) {
+  slideIndex = slideIndex + n;
+  showDivs(slideIndex);
+}
+
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+showDivs(1);
+
+// Progress Bars
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 5;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width == 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+
+
+
+
+</script>
 
 </body>
 </html>
